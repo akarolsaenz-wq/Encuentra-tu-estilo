@@ -1,0 +1,109 @@
+.estilo1 {
+    color: rgb(230, 126, 195);
+    font-size: 20px;
+    text-align: center;
+}
+.estilo2{
+        color: rgb(136, 35, 86);
+        font-size: medium;
+}
+.body3{
+    background-color: rgba(245, 234, 175, 0.849);
+    font-size: 30px;
+}
+.titulo4{
+    color: rgb(37, 95, 148);
+    background-color: rgba(104, 197, 240, 0.719);
+}
+body{
+    background-color: rgba(204, 233, 208, 0.678);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.divisor{
+    width: 100vw;
+    height: 40px;
+    background-color: #f8f18dd3;
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(134, 122, 9);
+    border-radius: 40px;
+    text-align: center;
+}
+.cajota{
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+    justify-content: center;
+}
+.divisor2{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.imagenes{
+    width: 125px;
+    height: 250px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.imagenes:hover{
+    width: 225px;
+    height: 400px;
+    transition: all ease-in-out 1s;}
+.botones{
+    size: 18px;
+}
+
+.botones:hover{
+    background-color: rgba(252, 85, 174, 0.658);
+}
+.imagenes1{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.imagenes1:hover{
+    width: 300px;
+    height: 350px;
+    transition: all ease-in-out  1s;
+}
+.loca{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.loca1{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(226, 222, 224);
+    border-radius: 10px;
+    overflow: auto;
+}
+.loca1:hover{
+    width: 200px;
+    height: 200px;
+    transition: all ease-in-out  1s;
+}
+.loca2{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(250, 192, 192);
+    border-radius: 10px;
+    overflow: auto;
+}
+.loca2:hover{
+    width: 200px;
+    height: 200px;
+    transition: all ease-in-out  1s;
+}
